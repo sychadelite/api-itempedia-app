@@ -26,3 +26,12 @@
         </div>
     </body>
 </html>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    // axios.get('/endpoint/api/users').then((response) => {
+    //     if(response.data.status) {
+    //         console.log(response.data.data);
+    //     }
+    // });
+</script>
