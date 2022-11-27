@@ -29,9 +29,9 @@
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
-    // axios.get('https://api-itempedia-app.vercel.app/endpoint/api/users').then((response) => {
-    //     if(response.data.status) {
-    //         console.log(response.data.data);
-    //     }
-    // });
+    axios.get('https://api-itempedia-app.vercel.app/endpoint/api/users').then((response) => {
+        if(response.data.status) {
+            console.log(response.data.data);
+        }
+    });
 </script>
